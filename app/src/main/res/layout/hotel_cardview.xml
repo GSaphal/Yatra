@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_margin="7dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_dark_background">
+
+        <ImageView
+            android:id="@+id/hotel_image"
+            android:src="@drawable/hotel1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            tools:ignore="MissingConstraints" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+            <TextView
+                android:id="@+id/hot_name"
+                android:layout_marginTop="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Annapurna Hotel"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:id="@+id/hot_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Durbarmarg"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/hot_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4259596"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:id="@+id/hot_website"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="www.annapurna_hotel.com"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                tools:ignore="MissingConstraints" />
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book Now"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_style_popup"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_dark_background">
+
+        <ImageView
+            android:src="@drawable/hotel2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            tools:ignore="MissingConstraints" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+            <TextView
+                android:layout_marginTop="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hotel Himalayan"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pulchowk"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5648497"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="www.himalaya_hotel.com"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                tools:ignore="MissingConstraints" />
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book Now"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_style_popup"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_dark_background">
+
+        <ImageView
+            android:src="@drawable/hotel3"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            tools:ignore="MissingConstraints" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+            <TextView
+                android:layout_marginTop="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hotel Crystal palace"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pokhara"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3453463"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="www.crystalpalace_hotel.com"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                tools:ignore="MissingConstraints" />
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book Now"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_style_popup"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+</ScrollView>

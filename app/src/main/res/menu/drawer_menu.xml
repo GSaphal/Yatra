@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Features">
+        <menu>
+        <item
+            android:id="@+id/add_hotel"
+            android:icon="@drawable/ic_hotel"
+            android:title="Add Hotel" />
+
+
+                <item
+                    android:id="@+id/add_flights"
+                    android:icon="@drawable/ic_flight"
+                    android:title="Add Flights" />
+                <item
+                    android:icon="@drawable/ic_transport"
+                    android:id="@+id/add_transport"
+                    android:title="Add Transport" />
+                <item
+                    android:icon="@drawable/ic_visit"
+
+                    android:id="@+id/add_visit"
+                    android:title="Visit Nepal 2020" />
+        </menu>
+        </item>
+
+    </group>
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/privacy"
+                android:icon="@drawable/ic_privacy"
+                android:title="Privacy" />
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/ic_help"
+                android:title="Help" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+
+</menu>

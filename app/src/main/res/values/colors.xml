@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <color name="colorPrimary">#24a0ed</color>
+        <color name="colorPrimaryDark">#24a0ed</color>
+        <color name="colorAccent">#FF4081</color>
+        <color name="bgBottomNavigation">#ffffff</color>
+        <color name="white">#ffff</color>
+        <color name="black">#000</color>
+    <color name="fb">#3b5998</color>
+    <color name="google">#CC3333</color>
+    <!--colors for modern ui-->
+    <color name="whiteTextColor">#fff</color>
+    <color name="primaryTextColor">#00a5ff</color>
+    <color name="loginBkColor">#f0f0f0</color>
+    <color name="bluelight">#49acd5</color>
+    <color name="green">#45bc62</color>
+    <color name="orange">#eaad43</color>
+    <!--colros for card-->
+    <color name="whiteCardColor">#fff</color>
+    <color name="nblack">#000</color>
+    <color name="colorBlue">#24a0ed</color>
+</resources>

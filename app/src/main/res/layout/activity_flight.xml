@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VISA Process for Nepal"
+            android:padding="15dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Tribhuvan International Airport is the only international airport of Nepal. Immigration Office, TIA (Tribhuvan International Airport) under Department of Immigration has been facilitating tourists flying to Nepal by providing Visa on Arrival. 'On Arrival' visa procedure is very quick and simple. You can expect some queues during peak Tourist season. If you wish to skip those queues, you can also consider getting Visa from Nepalese Diplomatic Missions stationed abroad prior to your arrival. Choice is yours.
+
+ If you have obtained visa from Nepalese Diplomatic Missions, then you must enter Nepal within six months from the visa issued date. Your total stay is counted starting from the day you enter into Nepal.
+
+Visas obtained on Arrival at the Entry and Exit points are 'Tourist Visas'.  They bear multiple Re entry facility. Tourist Visa 'On Arrival' is the only entry visa to Nepal. If you are visiting Nepal for the purposes other than Tourism (sightseeing, tour, travel, mountaineering, trekking, visiting friends and families), you should still get ' Tourist Visa' to get into the country.  However, you must change the category of visa as per your purpose and length of stay in Nepal from Department of Immigration by producing required documents.
+
+Nationals of designated countries are requested to acquire Visa prior their arrival from their nearby Diplomatic missions (Embassies/consulates) of Nepal Government.
+
+Please follow these simple procedures for Tourist Visa on Arrival at the airport (TIA)  if you have not acquired Visa prior to boarding the plane."
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1st step"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:text="- Fill in ' Arrival Card '"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:text="- Fill in Online ‘Tourist Visa ‘form ( you can fill it up  prior to your arrival  visiting our official website  Department of Immigration / fill it up using Kiosk machines upon your arrival at the airport).  If you fill it from the website, you will get submission Receipt with barcode, please print it out and bring it along for acquiring visa. It works for fifteen days and becomes invalid then after.  If so, you will have to fill it up again."/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2nd step"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:text="- Make payment  at the bank according to your visa requirement ( 15/30/90 Days)"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:text="- Get the receipt"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:text="While you can use different modes of payments (at visa fees collection counter), we advise you to carry some cash to be on the safe side."/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:text="On Arrival Visa Fee"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:text="- 15 Days – 25 USD"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:text="- 30 Days – 40 USD"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:text="- 90 Days – 100 USD"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3rd step"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:text="- Proceed to the Immigration Desk with your online form,  payment receipts and your passport"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:text="- Hand in your documents to immigration officer for visa processing. He/she issues visa to you upon his/her satisfaction."/>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginBottom="100dp"
+            android:text="Officials from China, Brazil, Russia and Thailand do not need Entry Visa based on reciprocal visa waiver Agreement
+
+Visas of all kinds including ‘Gratis’ issued at the Airport are Tourist Visas. Contact Department of Immigration for extending your visa or changing the category of your visa. Tourist Visa extension can be done from Immigration Office, Pokhara too. Non tourist visa extension can be done only at Department of Immigration (if eligible) for a period of maximum one year (except business visa)."/>
+
+
+    </LinearLayout>
+
+</ScrollView>

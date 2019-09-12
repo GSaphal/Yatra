@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "57235258472",
+    "firebase_url": "https://yatra-3c93b.firebaseio.com",
+    "project_id": "yatra-3c93b",
+    "storage_bucket": "yatra-3c93b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57235258472:android:6ee6298ef918a688",
+        "android_client_info": {
+          "package_name": "com.saphal.yatra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "57235258472-3ikavo9vuj208aua6d8bff4fm9su7m33.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.saphal.yatra",
+            "certificate_hash": "30b05942b04696fc9c88a713759d73d77e099233"
+          }
+        },
+        {
+          "client_id": "57235258472-kt4ii008t34ulc9f9ju6pavuchl36dre.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdFHkCl13fWL2_tTuNFZ32iXW4B3jkGEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "57235258472-kt4ii008t34ulc9f9ju6pavuchl36dre.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="5dp"
+    android:layout_gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtclose2"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:textColor="@color/nblack"
+            android:text="X"
+            android:textStyle="bold"
+            android:layout_gravity="end"
+            android:gravity="center"
+            android:background="@drawable/circlebackground"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/popup_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-30dp"
+                android:src="@drawable/e"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Package 2"
+                android:textColor="@color/nblack"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-135dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12 days"
+                android:textColor="@color/nblack"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"/>
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:background="@color/orange"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Price"
+                        android:textSize="18sp"
+                        android:textColor="@color/white"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1500$"
+                        android:textSize="18sp"
+                        android:textColor="@color/white"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:background="@color/bluelight"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Everest Base Camp(EBC) Trek"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 01: Kathmandu to Lukla flight and Trek to Phakding"
+                    android:textSize="12sp"
+                    android:textColor="@color/nblack"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 02: Phakding–Namche Trekking-6 hrs"
+                    android:textSize="12sp"
+                    android:textColor="@color/nblack"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 03: Acclimatization Day at Namche Bazar Valley"
+                    android:textSize="12sp"
+                    android:textColor="@color/nblack"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 04: Namche-Tengboche Trekking-6hrs"
+                    android:textSize="12sp"
+                    android:textColor="@color/nblack"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 05: Trek to Dingboche-6 hrs"
+                    android:textSize="12sp"
+                    android:textColor="@color/nblack"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 06: Acclimatization day at Dingboche"
+                    android:textSize="12sp"
+                    android:textColor="@color/nblack"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 07: Dingboche-Lobuche Trek- 5/6 hrs"
+                    android:textSize="12sp"
+                    android:textColor="@color/nblack"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 08: Gorakshep-Everest Base Camp- Gorakshep-8 hrs"
+                    android:textSize="12sp"
+                    android:textColor="@color/nblack"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 09: Gorakshep to Pheriche Trekking via Kalapatthar-6 hrs"
+                    android:textSize="12sp"
+                    android:textColor="@color/nblack"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 10: Pheriche-Namche Bazaar Trekking-8 hrs"
+                    android:textSize="12sp"
+                    android:textColor="@color/nblack"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 11: Namche-Phakding-Lukla-7 hrs"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 12: Lukla to Kathmandu"
+                    android:textSize="12sp"
+                    android:textColor="@color/nblack"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_bookthis2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/btn_style_popup"
+                android:text="Book Now" />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
